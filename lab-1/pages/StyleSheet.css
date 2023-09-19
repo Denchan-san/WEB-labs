@@ -22,34 +22,43 @@
 .item-1 {
     grid-row: 1 / 3;
     grid-column: 1 / max;
+    overflow: auto;
 }
 
 .item-2 {
     grid-row: 3 / max;
     grid-column: 1 / 3;
+    overflow: auto;
 }
 
 .item-3 {
     grid-row: 3 / 7;
     grid-column: 3 / 7;
-    
+    overflow: auto;
 }
 
 .item-4 {
     grid-row: 3 / 5;
     grid-column: 7/ max;
     top: 10px;
-    text-align : center;
+    text-align: center;
+    overflow: auto;
 }
 
 .item-5 {
     grid-row: 5 / 7;
     grid-column: 7 /max;
+    overflow: auto;
 }
 
 .item-6 {
     grid-row: 7 / max;
     grid-column: 3 / max;
+    overflow: auto; 
+}
+
+.item.item-6 ol {
+    max-width: 100%; 
 }
 
 ol {
