@@ -363,3 +363,5 @@ MigrationBackup/
 FodyWeavers.xsd
 /MMSM
 /CppProperties.json
+/lab-1/pages/Main.html
+/.gitignore
