@@ -1,34 +1,39 @@
 ﻿<!DOCTYPE html>
-
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main</title>
-    <link rel="stylesheet" type="text/css" href="StyleSheet.css" />
+    <link rel="stylesheet" type="text/css" href="non.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-
 </head>
 <body>
-    <div class="container">
-        <div class="item item-1">
-            <ol style="font-size: 60px;">Голована сторінка</ol>
+    <div class="containers">
+        <div class="containers item-1" style="text-align:center;">  <ol style="font-size: 60px; top: 20%;">Голована сторінка(NONE)</ol></div>
+        <div class="containers item-2">
+            <a href="https://www.youtube.com/watch?v=02lANrYvvA4" target="_blank">
+                <img src="content/anime2.png" alt="Зображення" usemap="#K-On-map">
+            </a>
+            <map name="K-On-map">
+                <area shape="rect"
+                      coords="0,0,100%,100%"
+                      href="https://www.youtube.com/watch?v=02lANrYvvA4"
+                      alt="Перейти на сайт"
+                      target="_blank" />
+            </map>
         </div>
-        <div class="item item-2">
-            <img src="content/anime2.png" alt="Зображення">
-        </div>
-        <div class="item item-3">
+        <div class="containers item-3">
             <video controls><source src="content/uki2.mp4" type="video/mp4"></video>
         </div>
-        <div class="item item-4">
+        <div class="containers item-4" style="text-align:center;">
             <map>MENU</map>
-            <a href="Gallery.html"><li>Фотогалерея</li></a>
-            <a href="Kvas.html"><li>Як робиться квас</li></a>
-            <a href="Cake.html"><li>Рецепт тортику</li></a>
-            <a href="idk.html"><li>Хайлайти!</li></a>
+            <a href="Main_non.html"><li>Звичайний-мейн</li></a>
+            <a href="Main_flexBox.html"><li>Флексбокс-мейн</li></a>
         </div>
-        <div class="item item-5">
+        <div class="containers item-5">
             <ul>Роботу виконав Голованьов Георгій Олександрович з групи ІП-25.</ul>
         </div>
-        <div class="item item-6">
+        <div class="containers item-6">
             <a style="text-align: left; font-size: 40px; padding-left: 30px;">Для безпечного прослуховування рекомендуємо<br />&nbsp;&nbsp;знизити гучність майже до мінімуму.</a>
         </div>
     </div>
