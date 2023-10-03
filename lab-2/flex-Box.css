@@ -15,7 +15,14 @@ body, html {
     display: flex;
     flex-direction: column;
     flex: 1;
-    overflow: hidden;
+    overflow: auto;
+}
+
+.container1 > ul{
+    height: 25%;
+    align-content: center;
+    left: 0;
+    overflow: auto;
 }
 
 .item-4 {
@@ -61,8 +68,8 @@ body, html {
 .container4w5 .item-1,
 .container4w5 .item-2 {
     border: 1px solid #000000;
-    flex: 2;
-    overflow: hidden;
+    flex: 1;
+    overflow: auto;
 }
 
 .item6 {
@@ -73,10 +80,10 @@ body, html {
 
 .item-video {
     border: 1px solid #000000;
-    flex: 1;
+    flex: 2;
     overflow: hidden;
-    height:100%;
-    width: 70%;
+    height: 100%;
+    width: 100%;
 }
 
 .container2 {
